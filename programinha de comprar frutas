@@ -1,0 +1,78 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPRpXyjWsWzvBklWgay745G",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/wellingtonjwesly23-bot/conhecimentos-e-programas/blob/main/programinha%20de%20comprar%20frutas\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MmDi0x7xKOrU",
+        "outputId": "a007ac74-25a7-4f6d-aa4a-f5019f7aa262"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Escolha oque deseja comprar: \n",
+            "1 - MAÇÃ\n",
+            "2 - BANANA\n",
+            "3 - LARANJA\n",
+            "Qual produto você deseja comprar? 1\n",
+            "Quantos produtos você deseja comprar? 21\n",
+            "Você comprou 21 maçãs e vai pagar R$48.3\n"
+          ]
+        }
+      ],
+      "source": [
+        "print('Escolha oque deseja comprar: ')\n",
+        "print('1 - MAÇÃ')\n",
+        "print('2 - BANANA')\n",
+        "print('3 - LARANJA')\n",
+        "produto = int(input('Qual produto você deseja comprar? '))\n",
+        "qtd = int(input('Quantos produtos você deseja comprar? '))\n",
+        "if produto == 1:\n",
+        "    pagar = qtd * 2.30\n",
+        "    print(f'Você comprou {qtd} maçãs e vai pagar R${pagar}')\n",
+        "else:\n",
+        "    if produto == 2:\n",
+        "        pagar = qtd * 1.85\n",
+        "        print(f'Você comprou {qtd} bananas e vai pagar R${pagar}')\n",
+        "    else:\n",
+        "     if produto == 3:\n",
+        "        pagar = qtd * 3.60\n",
+        "        print(f'Você comprou {qtd} laranjas e vai pagar R${pagar}')\n",
+        "     else:\n",
+        "          print('Produto não encontrado')\n",
+        "\n"
+      ]
+    }
+  ]
+}
