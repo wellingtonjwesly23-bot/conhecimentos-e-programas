@@ -1,0 +1,244 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/wellingtonjwesly23-bot/conhecimentos-e-programas/blob/main/EX%20CODE\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#EX DE EXPRESSÕES BOOLEANAS\n",
+        "if (2 + 2 < 4):\n",
+        "  print(\"deu certo\")\n",
+        "else:\n",
+        "  print(\"deu errado\")\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "H0BhEmqziiDX",
+        "outputId": "9386a061-2571-4e5b-cb49-84956094d05f",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "deu errado\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if (7 // 3 == 1 + 1 ):\n",
+        "  print(\"deu certo\")"
+      ],
+      "metadata": {
+        "id": "092tIXMSuckT",
+        "outputId": "22ad0e33-6bb3-4f8e-dac5-39016eb06989",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "deu certo\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if (3 ** 2 + 4 ** 2 == 25 ):\n",
+        "  print(\"deu certo\")"
+      ],
+      "metadata": {
+        "id": "ZH9k36Gou6cq",
+        "outputId": "b231363b-1bfb-40b3-8929-2505ca10f30d",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "deu certo\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if (2 + 4 + 6 > 12):\n",
+        "  print(\"deu certo\")"
+      ],
+      "metadata": {
+        "id": "qgJdyC3ZvNW0"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if (1387 % 19 == 0):\n",
+        "  print(\"deu certo\")"
+      ],
+      "metadata": {
+        "id": "2SG8Bf-Cvf0q"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if (31 % 2 == 0):\n",
+        "  print(\"deu certo\")"
+      ],
+      "metadata": {
+        "id": "JPObDGNQwPWi"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if (min(34 , 29 , 31) < 30):\n",
+        "    print(\"deu certo\")"
+      ],
+      "metadata": {
+        "id": "PmLCCSjSwbDs",
+        "outputId": "8a89abf8-763c-4b6c-d649-91bd541fd233",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "deu certo\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#EX DE CONDICIONAL SIMPLES\n",
+        "idade = 62\n",
+        "if (idade > 60):\n",
+        "  print(\"Você tem direito aos benefícios\")"
+      ],
+      "metadata": {
+        "id": "88RsZTExxFKE",
+        "outputId": "5b357e8a-9a18-4b10-fe56-78a29ec7d1da",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Você tem direito aos benefícios\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# cond simples\n",
+        "dano = 20\n",
+        "escudo = 0\n",
+        "if (dano > 10 and escudo == 0 ):\n",
+        "  print(\"Você está morto\")"
+      ],
+      "metadata": {
+        "id": "qPoFLddwx1ji",
+        "outputId": "6d5df9a4-12fa-4110-bdb8-fb840608f24a",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Você está morto\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# cond simples\n",
+        "norte = True\n",
+        "sul = False\n",
+        "leste = False\n",
+        "oeste = False\n",
+        "if (norte == True or sul == True or leste == True or oeste == True):\n",
+        "  print(\"Você escapou\")\n"
+      ],
+      "metadata": {
+        "id": "gMtawXW8yPF1",
+        "outputId": "3074a240-e4d1-43a9-9317-34752f321f4f",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Você escapou\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
